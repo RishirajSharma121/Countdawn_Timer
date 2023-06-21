@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            display: flex;
+        }
+        button{
+            background-color: #0026ff84;
+            color: antiquewhite;
+            margin: 0px;
+            padding: 0%;
+            height: 50px;
+            width: 100px;
+            border-radius: 15px;
+            border:2px solid green;
+            align-items: inherit;
+            display: flex;
+            text-align: center;
+        }
+        .h1{
+            display: flex;
+            size: 300px;
+            align-items: center;
+            color: rgba(21, 28, 156, 0.755);
+
+            
+
+        }
+        .between{
+            align-items: left;
+        }
+        .Number{
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: #fff;
+            height: 20px;
+            width: 10pc;
+            text-align: center;
+            
+        }
+        .btn_check{
+              align-items: center;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: #fff;
+            height: 20px;
+            width: 10pc;
+            text-align: center;
+            
+        }
+        .massage{
+                   align-items: center;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: #fff;
+            height: 20px;
+            width: 10pc;
+            text-align: center;
+        }
+        .label{
+            background-color: #fff;
+            height: 20px;
+            width: 10pc;
+            text-align: center;
+        }
+        .Number{
+              background-color: #148680;
+            height: 50px;
+            width: 20pc;
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<header>
+<button>RESTART</button>
+<p class="between">choose Between 1 and 20</p>
+<h1 class="h1">
+    guess my number
+</h1><br>
+<div class="Number">?</div> <br>
+<header/>
+<main>
+    <section class="Left">
+        <input type="number" class="guess" />
+        <button class="btn Check">Check</button>
+    </section>
+    <section class="Right">
+
+        <p class="massage" >start guessing</p>
+        <p class="label-score">Score: <span class="label">20</span></p>
+        <p class="label-highScore">High Score<span class="highScore">0</span></p>
+    </section>
+</main>
+<script>
+    console.log(document.querySelector('.massage').textContent);
+    document.querySelector('.massage').textContent='start--'
+    console.log(document.querySelector('.massage').textContent);
+    
+    document.querySelector('.label').textContent=10;
+    console.log(document.querySelector('.label').textContent);
+    document.querySelector('.Number').textContent =20
+    // console.log(document.querySelector('.number').vlaue=20);
+
+</script>
+<body>
+    
+</body>
+</html>

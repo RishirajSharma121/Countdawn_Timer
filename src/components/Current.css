@@ -1,0 +1,18 @@
+.ctime{
+    display: flex;
+    background-color: #fff;
+    height: 50px;
+    width: fit-content;
+    font-size: inherit;
+    background-color: #fff;
+    background-image: linear-gradient(90deg, #31242480, #c3cdc510 50%,#31242480 );
+        color: rgba(14, 28, 15, 0.81);
+    justify-content: center;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+       
+}

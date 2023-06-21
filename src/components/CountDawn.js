@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './CountDawn.css';
+import { Link } from 'react-router-dom';
 
 const live = new Date().toLocaleDateString();
 const Countdown = ({ initialTime }) => {
@@ -54,7 +55,7 @@ const Countdown = ({ initialTime }) => {
         <button className='button' onClick={hSTOP}>Stop</button>
       )}
           <button className='button' onClick={hRestart}>Restart</button>
-        <button >HOME</button>
+        <button Link to='/' >HOME</button>
     </div>
   );
 };
